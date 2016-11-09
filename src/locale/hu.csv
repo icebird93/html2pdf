@@ -1,0 +1,5 @@
+"pdf01","Generálva: [[date_y]].[[date_m]].[[date_d]]."
+"pdf02","Generálva: [[date_h]]:[[date_i]]"
+"pdf03","Generálva: [[date_y]].[[date_m]].[[date_d]]. [[date_h]]:[[date_i]]"
+"pdf04","Oldal: [[page_cu]]/[[page_nb]]"
+"pdf05","Az űrlap kitöltéséhez legalább Adobe Reader 9 szükséges"
