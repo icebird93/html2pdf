@@ -226,6 +226,8 @@ class Html2Pdf
 
         $this->svgDrawer = new SvgDrawer($this->pdf, $this->cssConverter);
 
+        $this->pdf->setFontSubsetting(false);
+
         $this->addExtension(new Core\HtmlExtension());
         $this->addExtension(new Core\SvgExtension($this->svgDrawer));
 
