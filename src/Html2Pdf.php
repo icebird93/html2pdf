@@ -224,9 +224,10 @@ class Html2Pdf
         // init the form's fields
         $this->_lstField = array();
 
-        $this->svgDrawer = new SvgDrawer($this->pdf, $this->cssConverter);
-
+        // tweak
         $this->pdf->setFontSubsetting(false);
+
+        $this->svgDrawer = new SvgDrawer($this->pdf, $this->cssConverter);
 
         $this->addExtension(new Core\HtmlExtension());
         $this->addExtension(new Core\SvgExtension($this->svgDrawer));
