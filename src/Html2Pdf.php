@@ -206,9 +206,6 @@ class Html2Pdf
         // init the form's fields
         $this->_lstField = array();
 
-        // tweak
-        $this->pdf->setFontSubsetting(false);
-
         $this->addExtension(new CoreExtension());
 
         return $this;
